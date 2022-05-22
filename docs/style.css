@@ -59,6 +59,7 @@ canvas{
     top: 283px;
     left: 580px;
     border: 2px solid red;
+    background-color: black;
 }
 #button_predict{
     position: absolute;
@@ -88,7 +89,7 @@ canvas{
     position: absolute;
     top: 335px;
     left: 1000px;
-    color: white;
+    color: grey;
     font-family: 'Titillium Web', sans-serif;
 }
 #prediction_heading{
