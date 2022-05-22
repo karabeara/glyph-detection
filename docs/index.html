@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>glyph-detection</title>
+
+        <link href="style.css" rel="stylesheet">
+        
+        <!--This here is the Tensorflow.js script-->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <nav class="nav bg-black py-3" id="navbar">
+            <h1 id="heading_text">Classifying Handwriten Letters and Digits</h1>
+        </nav>
+
+        <footer class="footer">
+            <p id = "credit" >Kara Lynn Bressler</p>
+            <style>
+                img {
+                  left: 500px; 
+                  height: 50px;
+                  width: 50px;
+                  padding: 8px;
+                } 
+                #credit{
+                    width: 120px;
+                    height: 50px;
+                    font-size: 17px;
+                    padding: 8px 0px;
+                    display: inline-block;
+                }
+            </style> 
+            
+        </footer>
+
+        <p id="centered">...
+        <br>...
+        <br>...</p>
+
+        <canvas id="canvas" width="280" height="280"></canvas>
+
+        <button id = 'button_predict'>Predict</button>
+
+        <button id = 'button_clear' onclick = clear2()>Clear</button>
+
+        <div id = 'predictions' class = 'text-center'>
+            <p id="prediction_heading">Prediction:</p>
+            <p id="result">-</p>
+            <p id="confidence">Confidence: -</p>
+        </div>
+
+        <script type = "application/javascript" src="script.js"></script>
+
+        <script type = "application/javascript" src="tensorflowjs.js"></script>
+
+    </body>
+</html>
