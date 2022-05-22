@@ -15,10 +15,10 @@ let model;
 
 // Load model from github, byclass 
 // Other models to download: letters, digits, balanced
-// i.e. emnist-letters-js-model
+// i.e. emnist-letters-js-file
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel('https://raw.githubusercontent.com/karabeara/glyph-detection/main/js-models/emnist-byclass-js-model/model.json')
+    model = await tf.loadLayersModel('https://raw.githubusercontent.com/karabeara/glyph-detection/main/js-files/emnist-byclass-js-file/model.json')
     console.log("model loaded..");
 })();
 
