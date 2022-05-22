@@ -18,7 +18,7 @@ let model;
 // i.e. emnist-letters-js-file
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel('https://raw.githubusercontent.com/karabeara/glyph-detection/main/js-files/emnist-byclass-js-file/model.json')
+    model = await tf.loadLayersModel('https://raw.githubusercontent.com/karabeara/glyph-detection/main/models/js-files/emnist-byclass-js-file/model.json')
     console.log("model loaded..");
 })();
 
