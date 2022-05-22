@@ -10,7 +10,7 @@ font-family: 'Titillium Web', sans-serif;
 body {
     box-sizing: border-box;
     background-color: black;
-    background-size: 115%;
+    background-size: 100%;
     background-position: bottom;; 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,8 +20,7 @@ body {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    background-image: linear-gradient(45deg, rgb(16,55,131), rgb(47, 97, 206), rgb(16,55,131));
+    color: grey;
     border-radius: 15px;
     font-family: 'Cairo', sans-serif;
     font-weight: 850;
@@ -32,8 +31,8 @@ body {
     bottom: 0;
     width: 100%;
     top: auto;
-    background-color: rgb(38,38,38);
-    color: white;
+    color: grey;
+    font-family: 'Cairo', sans-serif;
     text-align: center;
 }
 .footer p{
@@ -47,12 +46,12 @@ body {
     left: 0;
     width: 1440px;
     height: 128px;
-    color: aliceblue;
-    background-color: rgb(32, 32, 32);
+    color: grey;
     text-align: center;
     line-height: 25px;
     padding: 24px;
     font-size: 18px;
+    font-family: 'Cairo', sans-serif;
 }
 canvas{
     position: absolute;
@@ -66,11 +65,13 @@ canvas{
     top: 590px;
     left: 603px;
     display: inline-block;
+    background-color: white;
+    color: grey;
     width: 100px;
     height: 50px;
     border: 2px solid #F2AAAA;
     border-radius: 5px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 20px;
 }
 #button_clear{
@@ -78,11 +79,13 @@ canvas{
     top: 590px;
     left: 737px;
     display: inline-block;
+    background-color: white;
+    color: grey;
     width: 100px;
     height: 50px;
     border: 2px solid #F2AAAA;
     border-radius: 5px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 20px;
 }
 #predictions {
